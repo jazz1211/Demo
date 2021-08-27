@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="/css/proceso-pago.css">
+
+    <title>Mi carrito</title>
+</head>
+
+<body>
+    <header id="header-principal">
+        <section class="superior">
+            <nav class="paginas">
+                <a href="/html/restaurantes-provincias.html">Restaurantes</a>
+                <a href="/html/acerca-de.html">Acerca de</a>
+                <a class="nav-link" href="home.html#contacto">Soporte</a>
+            </nav>
+            <div class="botones">
+                <button id="button1">Usuario</button>
+                <button id="button2">Cerrar sesión</button>
+            </div>
+    </header>
+    <h1>Mi carrito</h1>
+    <section id="listado-de-platos-a-pagar">
+        <div id="container-lista">
+            <div class="carrito-resumen-producto">
+                <div class="container-grid">
+                    <p id="foto-platillo"><img alt=""></p>
+                    <p id="nombre-platillo">Foo</p>
+                    <button type="button" id="btn-bajar-cantidad-producto">-</button>
+                    <p id="cantidad-actual-producto">0</p>
+                    <button type="button" id="btn-subir-cantidad-producto">+</button>
+                    <p id="precio-producto-total">0</p>
+                    <span id="borrar-producto">🗑️</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container-metodos-plus-cuenta">
+        <section id="metodos-de-pago-usuario">
+            <div id="container-metodos-pago">
+                <div id="card-metodos-de-pago">
+                    <i id="icon-tipo-tarjeta-carrito" class="flex-center-style"> <img src="/media/imagenes/icon-mastercard.png" /> </i>
+                    <i id="numero-display-tarjeta" class="flex-center-style">•••• 2134</i>
+                    <i id="tarjeta-esta-selecionado" class="flex-center-style">✔️ </i>
+                    <br>
+                    <i id="icon-tipo-efectivo-carrito" class="flex-center-style">&#128181;</i>
+                    <i id="nombre-efectivo" class="flex-center-style">Colones</i>
+                    <i id="efectivo-esta-seleccionado" class="flex-center-style">-</i>
+                    <i id="adicionar-metodo-pago" class="flex-center-style"> <a href="/html/editar-metodos-pago.html"> ⊕ Adicionar métodos de pago</a></i>
+                </div>
+            </div>
+        </section>
+        <section id="cuenta-usuario">
+            <div id="card-descripcion-pago">
+                <span>Subtotal:<i id="mini-factura-subtotal">0</i></span>
+                <br>
+                <span>IVA:<i id="mini-factura-iva">0</i></span>
+                <br>
+                <span>Total:<i id="mini-factura-total">0</i></span>
+            </div>
+        </section>
+    </div>
+    <div id="container-button-pagar">
+        <button type="button" id="btn-pagar-cuenta">Pagar</button>
+        <br>
+        <a href="/html/index-usuario.html">Seguir comprando</a>
+    </div>
+
+    <footer>
+        <section id="footer">
+            <img class="foto2" img src="/media/imagenes/FoodCourt-logo.jpeg" alt="Food Court">
+            <div class="footer-basic">
+                <div class="social">
+                    <a href="#"><i class="icon ion-social-instagram"><img class="instagram" img src="/media/imagenes/icon ion-social-instagram.png" alt="Instagram" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-twiter"><img class="Twiter" img src="/media/imagenes/icon ion-social-twiter.png" alt="Twiter" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-tiktok"><img class="tiktok" img src="/media/imagenes/icon ion-social-tiktok.png" alt="Tiktok" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"><img class="facebook" img src="/media/imagenes/icon ion-social-facebook.png" alt="Facebook" width="100" height="100"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="/index.html">Home</a></li>
+                    <li class="list-inline-item"><a href="/html/restaurantes-provincias.html">Restaurantes</a></li>
+                    <li class="list-inline-item"><a href="/html/acerca-de.html">Acerca de</a></li>
+                    <li class="list-inline-item"><a href="/html/soporte.html">Soporte</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <p class="copyright">SoftMountain Technology © 2021</p>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="/js/proceso-pago.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

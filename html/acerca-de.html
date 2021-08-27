@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Karla:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@500&family=Karla:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/acercade.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+</head>
+
+<body>
+    <header id="header-principal">
+        <section class="superior">
+            <nav class="paginas">
+                <a href="index-usuario.html">Inicio</a>
+                <a href="restaurantes.html">Restaurantes</a>
+                <a href="home.html#contacto">Soporte</a>
+            </nav>
+            <div class="botones">
+                <button id="button1">Usuario</button>
+                <button id="button2">Cerrar sesión</button>
+            </div class="botones">
+    </header>
+    <section class="acercade">
+        <div id="acercade">
+            <video class="video" autoplay onloadedmetadata="this.muted = true" playsinline autoplay muted loop>
+              <source src="/media/videos/home.mp4" type="video/mp4">
+            Your browser does not support the video tag. <!-- Text to be shown incase browser doesnt support html5 -->
+            </video>
+            <p> Acerca de <br>FoodCourt</p>
+        </div>
+    </section>
+
+    <div class="fila">
+        <div class="columna" id="logo">
+            <p> <span id="logo"></span></p>
+        </div>
+        <div id="descripcion-container">
+            <p>¡Somos el primer <span class="cambioColorFoodcourt">foodcourt</span> online!</p>
+            <p>En este sitio, usted puede encontrar los mejores restaurantes,
+                <br>sus platillos y realizar fácilmente una reservación
+                <br>en línea para poder visitarlos.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <section id="footer">
+
+            <div class="footer-basic">
+                <div class="social">
+                    <a href="https://www.instagram.com/?hl=es"><i class="icon ion-social-instagram"><img class="instagram" img src="../media/imagenes/icon ion-social-instagram.png" alt="Instagram" width="100" height="100"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="icon ion-social-twiter"><img class="Twiter" img src="../media/imagenes/icon ion-social-twiter.png" alt="Twiter" width="100" height="100"></i></a>
+                    <a href="https://www.tiktok.com/"><i class="icon ion-social-tiktok"><img class="tiktok" img src="../media/imagenes/icon ion-social-tiktok.png" alt="Tiktok" width="100" height="100"></i></a>
+                    <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"><img class="facebook" img src="../media/imagenes/icon ion-social-facebook.png" alt="Facebook" width="100" height="100"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="restaurantes.html">Restaurantes</a></li>
+                    <li class="list-inline-item"><a href="acerca-de.html">Acerca de</a></li>
+                    <li class="list-inline-item"><a href="home.html#contacto">Soporte</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <p class="copyright">SoftMountain Technology © 2021</p>
+            </div>
+        </section>
+    </footer>
+    <script src="/js/usuarios-servicio.js"></script>
+</body>
+
+</html>

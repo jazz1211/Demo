@@ -1,0 +1,205 @@
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+    .flex-center-style {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .error-box {
+        border: 2px solid #eb4d4b;
+    }
+    
+    body {
+        width: 100%;
+    }
+    
+    h1 {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 72px;
+        padding: 0;
+        border: none;
+        margin: 30px 0 40px 100px;
+    }
+    
+    h2 {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        margin: 30px 0 40px 100px;
+    }
+    
+    hr {
+        width: 100%;
+    }
+    
+    .container-metodos-plus-adicionar {
+        width: 90%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5em 15px 7em 15px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px;
+        column-gap: 45px;
+        row-gap: 0;
+    }
+    
+    button p {
+        font-size: 18px;
+    }
+    
+    #btn-adicionar-cuenta {
+        width: 4em;
+        height: 1em;
+        background-color: #2a9d8f;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        margin: auto;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #btn-adicionar-cuenta:hover {
+        box-shadow: 5px 5px 20px gray;
+    }
+    
+    #container-button-adicionar {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #card-metodos-de-pago {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 1.5em;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 39px;
+    }
+    
+    #card-adicionar-metodos-pago form {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 0;
+        row-gap: 1em;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 39px;
+    }
+    
+    #icon-tarjetas-aceptadas {
+        width: 100%;
+    }
+    
+    .icon-tipo-tarjeta-carrito {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #icon-tipo-efectivo-carrito {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 252%;
+    }
+    
+    #numero-display-tarjeta {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #nombre-efectivo {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    #tarjeta-esta-selecionado {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #efectivo-esta-seleccionado {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #nombre-tarjeta-input {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #numero-tarjeta-input {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #card-adicionar-metodos-pago form label {
+        white-space: nowrap;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #fecha-vencimiento-tarjeta-input {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #codigo-seguridad-tarjeta-input {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    #icon-tarjetas-aceptadas {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }

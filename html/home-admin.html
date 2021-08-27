@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="/css/home-admin.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header id="header-principal">
+        <section class="superior">
+            <nav class="paginas">
+                <a href="index-usuario.html">Inicio - Clientes</a>
+                <a href="home-admin.html">Panel de control</a>
+                <a href="restaurantes.html">Restaurantes</a>
+                <a href="reporte-general.html">Reportes</a>
+            </nav>
+
+            <div class="botones">
+                <button id="button1" hidden></button>
+                <button id="button2">Salir</button>
+            </div class="botones">
+    </header>
+
+    <main>
+        <h1>Panel de control</h1>
+        <section id="container-caja-de-busqueda">
+            <div>
+                <form action="" method="get" name="busqueda">
+                    <label for="busqueda"></label>
+                    <input type="search" name="q" id="busqueda" placeholder="Buscar">
+                    <button type="submit">></button>
+                </form>
+            </div>
+        </section>
+
+        <div id="container-cards-opciones">
+            <section id="opciones-clientes" class="container-configuracion">
+                <h2>Opciones - Clientes</h2>
+                <div>
+                    <button type="button" id="listarClientesOn">Listar clientes activos</button>
+                    <button type="button" id="listarClientesOff">Listar clientes inactivos</button>
+
+                </div>
+            </section>
+            <section id="opciones-duennos" class="container-configuracion">
+                <h2>Opciones - Dueños</h2>
+                <div>
+                    <button type="button" id="listarDuennos">Listar dueños</button>
+                    <button type="button" id="listarsolicitudesDuennos">Solicitudes de registro</button>
+                </div>
+            </section>
+            <section id="opciones-encargados" class="container-configuracion">
+                <h2>Opciones - Restaurantes</h2>
+                <div>
+                    <button type="button" id="listarEncargados">Listar encargados</button>
+                    <button type="button" id="listarRestaurantes">Listar restaurantes</button>
+                </div>
+            </section>
+        </div>
+        <hr id="division-control-tabla" />
+        <table id="tabla-panel-control">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <img class="foto2" img src="../media/imagenes/FoodCourt-logo.jpeg" alt="Food Court">
+            <div class="footer-basic">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="home-admin.html">Panel de control</a></li>
+                    <li class="list-inline-item"><a href="restaurantes.html">Restaurantes</a></li>
+                    <li class="list-inline-item"> <a href="reporte-general.html">Reportes</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <p class="copyright">SoftMountain Technology © 2021</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/servicio-general.js"></script>
+    <script src="../js/home-admin.js" type="text/javascript"></script>
+
+</body>
+
+</html>

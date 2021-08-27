@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+.error {
+    border: 2px solid #eb4d4b;
+    font-family: roboto;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#header-principal .superior #button1:hover {
+    background: #E9ebee;
+}
+
+#banner_inicio-container #btn-insertar-fotos {
+    justify-content: flex-end;
+    width: 170px;
+    height: 40px;
+    left: 1470px;
+    right: 25 px;
+    margin-right: 15px;
+    margin-top: 25px;
+    /* Rectangle 2 */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-size: 13px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2a9d8f;
+    border-radius: 6px;
+}
+
+#banner_inicio-container #btn-insertar-fotos:hover {
+    background: #264653;
+}
+
+#banner_inicio-container h1 {
+    align-content: left;
+    width: 1950px;
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+#banner_inicio h1 {
+    width: 300px;
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+.foto1 {
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid black;
+    float: left;
+    width: 250px;
+}
+
+#banner_inicio p {
+    width: 1920px;
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 139% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container h4 {
+    font-family: DM Sans;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container #categorias-platillo {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+#banner_inicio-container {
+    /* Rectangle */
+    margin-left: 550px;
+    width: 750px;
+    height: 275px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background: #FFFFFF;
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+#banner_inicio-container2 {
+    /* Rectangle */
+    margin-left: 550px;
+    width: 750px;
+    height: 275px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background: #FFFFFF;
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+#banner_inicio-container h2 {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+}
+
+#banner_inicio-container2 h2 {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+    text-align: center;
+}
+
+#banner_inicio-container2 h5 {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+    text-align: center;
+    margin-left: 248px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.banner_inicio-container2 {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+    text-align: center;
+}
+
+#banner_inicio-container h3 {
+    text-align: center;
+    align-content: center;
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 2px;
+    margin-left: 150px;
+    font-size: 18px;
+    margin-top: 40px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container2 h3 {
+    text-align: center;
+    align-content: center;
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 2px;
+    margin-left: 150px;
+    font-size: 18px;
+    margin-top: 40px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container #txt-nombre-platillo {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 40px;
+    top: 563px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#banner_inicio #img-foto-platillo {
+    width: 250px;
+    padding-left: 5px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#output {
+    padding: 20px;
+    background: #dadada;
+}
+
+form {
+    margin-top: 10px;
+}
+
+select {
+    width: 300px;
+}
+
+#banner_inicio-container #txt-descripcion-platillo {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 40px;
+    top: 563px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#banner_inicio-container #txt-precio {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 40px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#banner_inicio-container .container3 #btn-registro {
+    width: 260px;
+    margin-top: 5px;
+    height: 40px;
+    align-self: center;
+    /* Rectangle 2 */
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2A9D8F;
+    border-radius: 6px;
+}
+
+#banner_inicio-container.container3 #btn-registro:hover {
+    background: #264653;
+}
+
+.banner_inicio-container .text {
+    padding: 3px 3px 3px 3px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    padding: 25px;
+    background-color: #ffff;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 0px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 90%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

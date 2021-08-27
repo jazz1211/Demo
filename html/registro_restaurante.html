@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/registro_restaurante.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+
+</head>
+
+<body>
+
+    <header id="header-principal">
+        <section class="superior">
+            <nav class="paginas">
+                <a href="index-usuario.html">Inicio</a>
+                <a href="restaurantes.html">Restaurantes</a>
+                <a href="acerca-de.html">Acerca de</a>
+            </nav>
+            <div class="botones">
+                <button id="button1">Usuario</button>
+                <button id="button2" href="Inicio_Sesion.html">Cerrar sesión</button>
+            </div class="botones">
+
+    </header>
+
+    <main>
+        <div class="column">
+            <div class="card">
+                <section id="banner_inicio">
+                    <h1>Registro de Restaurante</h1>
+                    <p>Ingresa la información de tu restaurante.</p>
+                </section>
+                <div id="banner_inicio-container">
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <h2>Información básica</h2>
+                                <h4>Información general</h4>
+                                <div>
+                                    <div class="user-box">
+                                        <div>
+                                            <form>
+
+                                                <label for="txt-nombre-restaurante"></label>
+                                                <input type="text" id="txt-nombre-restaurante" required="" placeholder="Nombre del restaurante">
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form>
+                                                <label for="txt-nombre-comercial"></label>
+                                                <input type="text" id="txt-nombre-comercial" required="" placeholder="Nombre comercial">
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form>
+
+                                                <label for="cedula-juridica"></label>
+                                                <input type="number" id="cedula-juridica" required="" placeholder="Cédula Jurídica">
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form>
+
+                                                <label for="descripcion-restaurante"></label>
+                                                <input type="text" id="descripcion-restaurante" required="" placeholder="Descripción del restaurante">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Datos de contacto</h4>
+                                <h5>
+                                    <div>
+                                        <form>
+                                            <label for="numero-contacto-1"></label>
+                                            <input type="number" id="numero-contacto-1" required="" placeholder="Número telefónico 1">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="numero-contacto-2"></label>
+                                            <input type="number" id="numero-contacto-2" required="" placeholder="Número telefónico 2">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="correo-electronico"></label>
+                                            <input type="email" id="correo-electronico" required="" placeholder="Correo electrónico">
+                                        </form>
+                                    </div>
+                                    <h4>Redes sociales</h4>
+
+                                    <form>
+                                        <label for="facebook-restaurante"></label>
+                                        <input type="text" id="facebook-restaurante" placeholder="Facebook">
+                                    </form>
+                                    <form>
+                                        <label for="instagram-restaurante"></label>
+                                        <input type="text" id="instagram-restaurante" placeholder="Instagram">
+                                    </form>
+                                    <h4>Aforo permitido</h4>
+                                    <div>
+                                        <form>
+                                            <label for="aforo"></label>
+                                            <input type="number" id="aforo" required=" " placeholder="Cantidad máxima permitida ">
+                                        </form>
+                                    </div>
+                                    <h4>Información del encargado</h4>
+                                    <div>
+                                        <form>
+                                            <label for="Nombre-encargado"></label>
+                                            <input type="text" id="nombre-encargado" required=" " placeholder="Nombre completo">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="correo-electronico2"></label>
+                                            <input type="email" id="correo-electronico2" required=" " placeholder="Correo electrónico">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="provincia">Provincia en que se encuentra</label><br>
+                                            <select id="provincia" required>
+                                            <option value="provincia-placeholder">Escoja una opción</option>
+                                            <option value="San José">San José</option>
+                                            <option value="Heredia">Heredia</option>
+                                            <option value="Cartago">Cartago</option>
+                                            <option value="Guanacaste">Guanacaste</option>
+                                            <option value="Puntarenas">Puntarenas</option>
+                                            <option value="Limón ">Limón</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="canton"></label>
+                                            <input type="text" id="canton" required=" " placeholder="Cantón">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="distrito"></label>
+                                            <input type="text" id="distrito" required=" " placeholder="Distrito">
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <form>
+                                            <label for="ubicacion"></label>
+                                            <input type="text " id="ubicacion" required=" " placeholder="Ubicación en coordenadas geográficas ">
+                                        </form>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+
+                                <div class="card">
+
+                                    <div class="card ">
+                                        <h4>Logo del restaurante</h4>
+                                        <form>
+                                            <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;"></p>
+                                            <p><img id="output" width="100px" /></p>
+                                            <p><label for="file" style="cursor: pointer;">Insertar imagen</label></p>
+
+                                            <script>
+                                                var loadFile = function(event) {
+                                                    var image = document.getElementById('output');
+                                                    image.src = URL.createObjectURL(event.target.files[0]);
+                                                };
+                                            </script>
+                                        </form>
+                                    </div>
+
+                                    <h4>Horario de atención</h4>
+                                    <h3>Lunes:
+                                    </h3>
+
+                                    <input type="time" id="monday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="monday2" name="appt" min="06:00" max="23:00" required></br>
+                                    <h3>Martes:
+                                    </h3>
+                                    </label><input type="time" id="tuesday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="tuesday2" name="appt" min="06:00" max="23:00" required>
+                                    <h3>Miércoles:
+                                    </h3>
+
+                                    <input type="time" id="wednesday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="wednesday2" name="appt" min="06:00" max="23:00" required></br>
+                                    <h3>Jueves:
+                                    </h3>
+                                    </label><input type="time" id="thursday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="thursday2" name="appt" min="06:00" max="23:00" required>
+                                    <h3>Viernes:
+                                    </h3>
+
+                                    <input type="time" id="friday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="friday2" name="appt" min="06:00" max="23:00" required></br>
+                                    <h3>Sábado:
+                                    </h3>
+                                    </label><input type="time" id="saturday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="saturday2" name="appt" min="06:00" max="23:00" required>
+                                    <h3>Domingo:
+                                    </h3>
+
+                                    <input type="time" id="sunday1" name="appt" min="06:00" max="23:00" required>
+                                    <input type="time" id="sunday2" name="appt" min="06:00" max="23:00" required></br>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="boton-registro">
+                        <button type="submit" id="btn-registro">Registro</button></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <section id="banner_medio">
+                        <div id="banner_medio-container">
+                            <h2>Galería de fotos</h2>
+                            <h4>Compartí fotografías de tu restaurante para atraer a más clientes</h4>
+                            <div class="image-upload-one">
+                                <div class="center">
+                                    <div class="form-input">
+                                        <label for="file-ip-1">
+                                            <img id="file-ip-1-preview" src="https://i.ibb.co/ZVFsg37/default.png">
+                                            <button type="button" class="imgRemove" onclick="myImgRemoveFunctionOne()"></button>
+                                        </label>
+                                        <input type="file" name="img_one" id="file-ip-1" accept="image/*" onchange="showPreviewOne(event)">
+                                    </div>
+                                    <small class="small">Da click en &#8634; para cambiar de imagen</small>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="card">
+                        <section id="banner_inicio">
+                            <p>Completá tu perfil de restaurante.
+                                </br>Edita otros detalles.
+                            </p>
+                        </section>
+                    </div>
+                    <section id="banner_abajo-container">
+                        <div class="hipervinculos">
+                            <h2>Páginas relacionadas</h2>
+                            <br><br>
+                            <h4>Nuevo menú</h4><a href="registro_menu.html">Agregar</a>
+                            <h4>Nuevo platillo</h4> <a href="registro_platillo.html">Agregar</a>
+                            <h4>Perfil del encargado del restaurante</h4> <a href="registro_encargado-de-restaurante.html">Editar</a>
+                            <h4>Perfil del dueño del restaurante</h4> <a href="registro-duenno-de-restaurante.html">Editar</a>
+                        </div>
+                    </section>
+    </main>
+    <footer>
+        <section id="footer">
+            <img class="foto2" img src="../media/imagenes/FoodCourt-logo.jpeg" alt="Food Court">
+            <div class="footer-basic">
+                <div class="social">
+                    <a href="#"><i class="icon ion-social-instagram"><img class="instagram" img src="../media/imagenes/icon ion-social-instagram.png" alt="Instagram" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-twiter"><img class="Twiter" img src="../media/imagenes/icon ion-social-twiter.png" alt="Twiter" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-tiktok"><img class="tiktok" img src="../media/imagenes/icon ion-social-tiktok.png" alt="Tiktok" width="100" height="100"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"><img class="facebook" img src="../media/imagenes/icon ion-social-facebook.png" alt="Facebook" width="100" height="100"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index-usuario.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="restaurantes.html">Restaurantes</a></li>
+                    <li class="list-inline-item"> <a href="acerca-de.html">Acerca de</a></li>
+                    <li class="list-inline-item"><a href="home.html#contacto">Soporte</a></li>
+                </ul>
+                <div class="footer-line"></div>
+                <p class="copyright">SoftMountain Technology © 2021</p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/servicio-general.js"></script>
+    <script src="../js/usuarios-servicio.js"></script>
+    <script src="../js/registro_restaurante.js"></script>
+</body>
+
+
+
+</html>

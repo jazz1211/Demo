@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/registro_platillo.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+</head>
+
+<body>
+
+    <header id="header-principal">
+        <section class="superior">
+            <nav class="paginas">
+                <a href="index-usuario.html">Home</a>
+                <a href="restaurantes.html">Restaurantes</a>
+                <a href="acerca-de.html">Acerca de</a>
+                <a href="home.html#contacto">Soporte</a>
+            </nav>
+            <div class="botones">
+
+                <form>
+                    <a id="button1" href="Inicio_Sesion.html">Usuario</a></form>
+                <form>
+                    <a id="button2" href="Inicio_Sesion.html">Cerrar sesión</a></form>
+            </div class="botones">
+
+    </header>
+
+    <main>
+        <section id="banner_inicio">
+            <h1>Registro de Platillo</h1>
+            <p>Ingresa la información de los platillos de tu restaurante.</p>
+        </section>
+        <div id="banner_inicio-container">
+
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h2>Información del platillo</h2>
+                        <h4>Información básica</h4>
+                        <div>
+                            <div class="user-box">
+                                <div>
+                                    <form>
+                                        <label for="txt-nombre-platillo"></label>
+                                        <input type="text" id="txt-nombre-platillo" required="" placeholder="Nombre del platillo">
+                                    </form>
+                                </div>
+                                <div>
+                                    <form>
+                                        <label for="txt-descripcion-platillo"></label>
+                                        <input type="text" id="txt-descripcion-platillo" required="" placeholder="Descripción corta del platillo">
+                                    </form>
+                                </div>
+                                <div>
+                                    </form>
+                                    <label for="txt-precio"></label>
+                                    <input type="number" id="txt-precio" required="" placeholder="Precio del platillo sin IVA">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Categorías del platillo</h4>
+                        <h5>
+                            Selecciona las categorías de tu platillo:</h5>
+                        <div class="card">
+
+                            <div id="categorias-platillo"></div>
+                            <form>
+                                <label for="ids"></label><br>
+                                <select id="ids">
+                                <option value="tipo-id-placeholder">Escoja mínimo una opción</option>
+                                <option value="txt-vegetariano">Vegetariano</option>
+                                <option value="txt-gluten">Libre de gluten</option>
+                                <option value="txt-keto">Keto</option>
+                            
+                                </select>
+                            </form>
+                        </div>
+                        <h4>Menús a los que pertenece</h4>
+                        <h5>
+                            Selecciona los menús en los que se encuentra<br /> tu platillo:</h5>
+                        <div class="card">
+                            <div id="menus-platillo"></div>
+                            <form>
+                                <label for="menu"></label><br>
+                                <select id="menu">
+                            <option value="tipo-id-placeholder">Escoja mínimo una opción</option>
+                            <option value="txt-nacional">Aperitivos</option>
+                            <option value="txt-residente">Entradas</option>
+                            <option value="txt-jurídica">Platos Fuertes</option>
+                            <option value="txt-residente">Ensaladas</option>
+                            <option value="txt-jurídica">Bebidas</option>
+                        
+                            </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <form>
+                            <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;"></p>
+                            <p><img id="output" width="200" /></p>
+                            <p><label for="file" style="cursor: pointer;">Insertar imagen</label></p>
+                        </form>
+                        <script>
+                            var loadFile = function(event) {
+                                var image = document.getElementById('output');
+                                image.src = URL.createObjectURL(event.target.files[0]);
+                            };
+                        </script>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="break-line">
+                <div class="vertical-center"></div>
+            </div>
+
+
+            <div></div> <input type="submit" id="btn-registro-platillo" value="Registro de platillo">
+        </div>
+        </form>
+
+        </section>
+    </main>
+    <footer>
+        <section id="footer">
+            <img class="foto2" img src="../media/imagenes/FoodCourt-logo.jpeg" alt="Food Court">
+            <div class="footer-basic">
+                <div class="social">
+                    <a href="https://www.instagram.com/?hl=es"><i class="icon ion-social-instagram"><img class="instagram" img src="../media/imagenes/icon ion-social-instagram.png" alt="Instagram" width="100" height="100"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="icon ion-social-twiter"><img class="Twiter" img src="../media/imagenes/icon ion-social-twiter.png" alt="Twiter" width="100" height="100"></i></a>
+                    <a href="https://www.tiktok.com/"><i class="icon ion-social-tiktok"><img class="tiktok" img src="../media/imagenes/icon ion-social-tiktok.png" alt="Tiktok" width="100" height="100"></i></a>
+                    <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"><img class="facebook" img src="../media/imagenes/icon ion-social-facebook.png" alt="Facebook" width="100" height="100"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index-usuario.html">Home</a></li>
+                    <li class="list-inline-item"><a href="restaurantes-provincias.html">Restaurantes</a></li>
+                    <li class="list-inline-item"> <a href="acerca-de.html">Acerca de</a></li>
+                    <li class="list-inline-item"><a href="home.html#contacto">Soporte</a>
+                    </li>
+                </ul>
+                <div class="footer-line"></div>
+                <p class="copyright">SoftMountain Technology © 2021</p>
+            </div>
+        </section>
+    </footer>
+    <!--<script src="js/usuarios-servicio.js" type="text/javascript" ></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/registro_platillo.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

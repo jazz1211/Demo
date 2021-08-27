@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+.error-box {
+    border: 2px solid #eb4d4b;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#banner_inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#banner_inicio h1 {
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+#banner_inicio p {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 139% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* Rectangle */
+    width: 800px;
+    height: 1500px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #btn-insertar-fotos {
+    justify-content: flex-end;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    left: 1470px;
+    right: 25 px;
+    margin-right: 15px;
+    margin-top: 25px;
+    /* Rectangle 2 */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-size: 13px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2a9d8f;
+    border-radius: 6px;
+}
+
+#banner_inicio-container #btn-insertar-fotos:hover {
+    background: #264653;
+}
+
+#banner_inicio-container h1 {
+    align-content: center;
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+#banner_inicio-container h4 {
+    font-family: DM Sans;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container #categorias-platillo {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.foto1 {
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid black;
+    float: left;
+    width: 250px;
+}
+
+#banner_inicio-container h3 {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container #txt-nombre-restaurante {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #cedula-juridica {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #txt-nombre-comercial {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #descripcion-restaurante {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#nombre-encargado {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #numero-contacto-1 {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #numero-contacto-2 {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #correo-electronico2 {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#correo-electronico {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#facebook-restaurante {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#instagram-restaurante {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#aforo {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #provincia {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #canton {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#banner_inicio-container #distrito {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#ubicacion {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#nombre-encargado {
+    width: 300px;
+    align-content: center;
+    padding-left: 5px;
+    height: 30px;
+    top: 563px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+#output {
+    padding: 20px;
+    background: #dadada;
+}
+
+form {
+    margin-top: 10px;
+}
+
+select {
+    width: 300px;
+}
+
+#btn-registro {
+    width: 260px;
+    margin-top: 5px;
+    height: 40px;
+    align-self: center;
+    align-content: center;
+    /* Rectangle 2 */
+    font-family: DM Sans;
+    font-size: 16px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2A9D8F;
+    border-radius: 6px;
+}
+
+#btn-registro:hover {
+    background: #264653;
+}
+
+#banner_medio-container {
+    /* Rectangle */
+    align-self: center;
+    width: 800px;
+    margin-bottom: 30px;
+    height: 400px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    background: #FFFFFF;
+}
+
+#banner_medio-container h2 {
+    /* Body P Large */
+    font-family: DM Sans;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+}
+
+#banner_medio-container h4 {
+    font-family: DM Sans;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_abajo-container {
+    /* Rectangle */
+    margin: 0 auto 10px auto;
+    width: 400px;
+    padding: 30px;
+    height: 400px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    background: #FFFFFF;
+}
+
+#banner_abajo-container h2 {
+    /* Body P Large */
+    font-family: DM Sans;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 139% */
+    letter-spacing: -0.025em;
+    color: #130c0c;
+}
+
+#banner_abajo-container h4 {
+    font-family: DM Sans;
+    align-content: center;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.banner_inicio-container .text {
+    padding: 3px 3px 3px 3px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+#galeria {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 960px;
+    column-count: 3;
+    -webkit-column-span: all;
+    column-span: all;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -moz-column-rule: 1px solid #bbb;
+    -webkit-column-rule: 1px solid #bbb;
+    column-rule: 1px solid #bbb;
+    @media (max-width: 767px) {
+        #galeria {
+            columns: 2;
+        }
+    }
+}
+
+
+/* Móviles en vertical */
+
+@media (max-width: 480px) {
+    #galeria {
+        columns: 1;
+    }
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    padding: 35px;
+    background-color: #ffff;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 0px;
+    /* or 139% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 90%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.center {
+    display: inline;
+    margin: 3px;
+}
+
+.form-input {
+    width: 150px;
+    padding: 3px;
+    background: #fff;
+    border: 2px dashed #fff;
+}
+
+.form-input input {
+    display: none;
+}
+
+.form-input label {
+    display: block;
+    width: 200px;
+    height: auto;
+    max-height: 200px;
+    background: #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-input img {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    opacity: .0.2;
+}
+
+.imgRemove {
+    position: relative;
+    bottom: 200px;
+    left: 80%;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.imgRemove::after {
+    content: ' \21BA';
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.small {
+    color: firebrick;
+}

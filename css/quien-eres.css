@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+p {
+    font-size: 30px;
+}
+
+.flex-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#header-principal .superior {
+    background-color: #ffffff;
+    display: flex;
+    height: 84px;
+    justify-content: space-between;
+    top: 10px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#header-principal .superior nav a {
+    font-family: DM Sans;
+    float: inline-start;
+    display: inline;
+    margin-right: 40px;
+    color: #2a9d8f;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+#logo-restaurante {
+    margin: top 0;
+    padding: 5px;
+}
+
+#header-principal .superior nav a:hover {
+    text-decoration: underline;
+}
+
+#header-principal .superior .botones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: inline-end;
+    position: right;
+}
+
+#header-principal .superior .botones #button2 {
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 150px;
+    height: 40px;
+    left: 1308px;
+    top: 25px;
+    background: #2a9d8f;
+    /* Actionable Item */
+    border: 1px solid #2A9D8F;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#header-principal .superior .botones #button2:hover {
+    background: #264653;
+}
+
+#button3 {
+    justify-content: flex-end;
+    width: 200px;
+    height: 40px;
+    right: 25 px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: DM Sans;
+    /* Rectangle 2 */
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2a9d8f;
+    border-radius: 6px;
+}
+
+#button3:hover {
+    background: #264653;
+}
+
+#button4 {
+    justify-content: flex-end;
+    width: 200px;
+    height: 40px;
+    right: 25 px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: DM Sans;
+    /* Rectangle 2 */
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2a9d8f;
+    border-radius: 6px;
+}
+
+#button4:hover {
+    background: #264653;
+}
+
+#button5 {
+    justify-content: flex-end;
+    width: 200px;
+    height: 50px;
+    right: 25 px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: DM Sans;
+    /* Rectangle 2 */
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* Actionable Item */
+    background: #2a9d8f;
+    border-radius: 6px;
+}
+
+#button5:hover {
+    background: #264653;
+}
+
+#header-principal .superior .botones #button1 {
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 150px;
+    height: 40px;
+    top: 25px;
+    background: #FFFFFF;
+    /* Actionable Item */
+    border: 1px solid #2A9D8F;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #2A9D8F;
+}
+
+#header-principal .superior #button1:hover {
+    background: #E9ebee;
+}
+
+#banner_inicio-container h1 {
+    align-content: center;
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+#banner_inicio h1 {
+    top: 150 px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #2A9D8F;
+}
+
+#banner_inicio p {
+    /* Body P Large */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 139% */
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#banner_inicio-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    /* Rectangle */
+    width: 100%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px 0;
+    background: #FFFFFF;
+}
+
+.banner_inicio-container .text {
+    padding: 3px 3px 3px 3px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    padding: 35px;
+}
+
+.center {
+    display: inline;
+    margin: 3px;
+}
